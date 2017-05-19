@@ -8,7 +8,7 @@ namespace Production.Common.Models
 {
     public class Inventory
     {
-        List<Item> ItemList { get; set; }
+        Dictionary<Item,int> ItemList { get; set; }
         int Qty { get; set; }
         int Usage { get; set; }
         int Waste { get; set; }

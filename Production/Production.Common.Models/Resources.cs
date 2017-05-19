@@ -8,7 +8,7 @@ namespace Production.Common.Models
 {
     public class Resources
     {
-        List<Machine> Machines { get; set; }
+        Dictionary<Machine,int> Machines { get; set; }
         List<Employer> Employers { get; set; }
     }
 }
