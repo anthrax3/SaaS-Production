@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace OpenQubit.Production.Common.Models
 {
-    public class Other
+    class ResourceType
     {
-        int Id { get; set; }
-        String Heat { get; set; }
-        String Power { get; set; }
+        int ResourceTypeId { get; set; }
+        String Type { get; set; }
     }
 }

@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Production.Common.Models
+namespace OpenQubit.Production.Common.Models
 {
     public class Resources
     {
-        Dictionary<Machine,int> Machines { get; set; }
-        List<Employer> Employers { get; set; }
+        int Id { get; set; }
+        String ResourceName { get; set; }
+        String Description { get; set; }
+        ResourceType Type { get; set; }
     }
 }

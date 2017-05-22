@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Production.Common.Models
+namespace OpenQubit.Production.Common.Models
 {
     public class Location
     {

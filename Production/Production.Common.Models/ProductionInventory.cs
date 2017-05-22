@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Production.Common.Models
+namespace OpenQubit.Production.Common.Models
 {
-    public class Machine
+    public class ProductionInventory
     {
         int Id { get; set; }
-        String Name { get; set; }
-        Location Location { get; set; }
+        List<InventoryItem> ItemLIDList { get; set; }
     }
 }

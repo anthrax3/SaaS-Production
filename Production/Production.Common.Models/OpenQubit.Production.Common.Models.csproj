@@ -7,8 +7,8 @@
     <ProjectGuid>{07567714-BDD2-4B25-8B19-7AF74A8CA40A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Production.Common.Models</RootNamespace>
-    <AssemblyName>Production.Common.Models</AssemblyName>
+    <RootNamespace>OpenQubit.Production.Common.Models</RootNamespace>
+    <AssemblyName>OpenQubit.Production.Common.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -29,6 +29,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'OpenQubit.Production|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\OpenQubit.Production\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -41,15 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BreakDown.cs" />
-    <Compile Include="Employer.cs" />
-    <Compile Include="Inventory.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="Line.cs" />
+    <Compile Include="ItemType.cs" />
+    <Compile Include="ProductionInventory.cs" />
+    <Compile Include="InventoryItem.cs" />
+    <Compile Include="ProductionLine.cs" />
+    <Compile Include="ProductionLineTemplate.cs" />
+    <Compile Include="Stage.cs" />
     <Compile Include="Location.cs" />
-    <Compile Include="Machine.cs" />
     <Compile Include="Other.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources.cs" />
+    <Compile Include="ResourceType.cs" />
+    <Compile Include="StageTemplate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
