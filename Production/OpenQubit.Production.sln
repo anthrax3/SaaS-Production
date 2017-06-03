@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{881188
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Production.Common.Models", "Production.Common.Models\OpenQubit.Production.Common.Models.csproj", "{07567714-BDD2-4B25-8B19-7AF74A8CA40A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 DataAccess", "04 DataAccess", "{612E7406-9E38-40E3-8177-B02901FDDF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Production.DataAccess.DAL", "OpenQubit.Production.DataAccess.DAL\OpenQubit.Production.DataAccess.DAL.csproj", "{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +26,12 @@ Global
 		{07567714-BDD2-4B25-8B19-7AF74A8CA40A}.OpenQubit.Production|Any CPU.Build.0 = OpenQubit.Production|Any CPU
 		{07567714-BDD2-4B25-8B19-7AF74A8CA40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07567714-BDD2-4B25-8B19-7AF74A8CA40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}.OpenQubit.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}.OpenQubit.Production|Any CPU.Build.0 = Release|Any CPU
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,5 +39,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{881188DF-A485-4D38-A0C8-3DDC98D1FF1E} = {3EB9BB1E-769A-4829-A49C-0F527F02EDB4}
 		{07567714-BDD2-4B25-8B19-7AF74A8CA40A} = {881188DF-A485-4D38-A0C8-3DDC98D1FF1E}
+		{4F57B1ED-0485-4B0E-9BCF-95B0536B0D99} = {612E7406-9E38-40E3-8177-B02901FDDF4B}
 	EndGlobalSection
 EndGlobal

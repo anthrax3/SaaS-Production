@@ -10,9 +10,9 @@ namespace OpenQubit.Production.Common.Models
     public class InventoryItem
     {
         [Key]
-        int Id { get; set; }
-        String Name { get; set; }
-        ItemType ItemType { get; set; }
-        int Quantity { get; set; }
+        public int Id { get; set; }
+        public String Name { get; set; }
+        public ItemType ItemType { get; set; }
+        public int Quantity { get; set; }
     }
 }

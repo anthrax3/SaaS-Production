@@ -10,8 +10,8 @@ namespace OpenQubit.Production.Common.Models
     public class Other
     {
         [Key]
-        int Id { get; set; }
-        String Heat { get; set; }
-        String Power { get; set; }
+        public int ID { get; set; }
+        public String Heat { get; set; }
+        public String Power { get; set; }
     }
 }

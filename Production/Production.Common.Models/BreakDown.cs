@@ -10,10 +10,10 @@ namespace OpenQubit.Production.Common.Models
     public class BreakDown
     {
         [Key]
-        int Id { get; set; }
-        int StageId { get; set; }
-        DateTime Start { get; set; }
-        DateTime End { get; set; }
-        Boolean State { get; set; }
+        public int Id { get; set; }
+        public int StageId { get; set; }
+        public DateTime Start { get; set; }
+        public DateTime End { get; set; }
+        public Boolean State { get; set; }
     }
 }
