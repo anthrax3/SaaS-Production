@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Controllers\BreakDownController\Class1.cs" />
     <Compile Include="Controllers\InventoryItemController\Class1.cs" />
-    <Compile Include="Controllers\ItemTypeController\Class1.cs" />
     <Compile Include="Controllers\LocationController\Class1.cs" />
     <Compile Include="Controllers\OtherController\Class1.cs" />
     <Compile Include="Controllers\ProductionInventoryController\Class1.cs" />
@@ -63,7 +62,9 @@
       <Name>OpenQubit.Production.Common.Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Controllers\ItemTypeController\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
