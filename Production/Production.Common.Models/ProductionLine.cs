@@ -10,10 +10,10 @@ namespace OpenQubit.Production.Common.Models
     public class ProductionLine
     {
         [Key]
-        int Id { get; set; }
-        DateTime StartTime { get; set; }
-        DateTime EndTime { get; set; }
-        List<Stage> Stages { get; set; }
-        ProductionLineTemplate ProductionLineTemplateId { get; set; }
+        public int Id { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+        public List<Stage> Stages { get; set; }
+        public ProductionLineTemplate ProductionLineTemplateId { get; set; }
     }
 }

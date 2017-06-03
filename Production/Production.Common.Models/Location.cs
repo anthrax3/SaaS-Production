@@ -10,7 +10,7 @@ namespace OpenQubit.Production.Common.Models
     public class Location
     {
         [Key]
-        int ID { get; set; }
-        String Name { get; set;}
+        public int ID { get; set; }
+        public String Name { get; set;}
     }
 }

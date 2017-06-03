@@ -10,7 +10,7 @@ namespace OpenQubit.Production.Common.Models
     public class ProductionInventory
     {
         [Key]
-        int Id { get; set; }
-        List<InventoryItem> ItemLIDList { get; set; }
+        public int Id { get; set; }
+        public List<InventoryItem> ItemLIDList { get; set; }
     }
 }

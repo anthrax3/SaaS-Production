@@ -10,9 +10,9 @@ namespace OpenQubit.Production.Common.Models
     public class Resources
     {
         [Key]
-        int Id { get; set; }
-        String ResourceName { get; set; }
-        String Description { get; set; }
-        ResourceType Type { get; set; }
+        public int Id { get; set; }
+        public String ResourceName { get; set; }
+        public String Description { get; set; }
+        public ResourceType Type { get; set; }
     }
 }
