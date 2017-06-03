@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\BreakDownController\Class1.cs" />
+    <Compile Include="Controllers\InventoryItemController\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,8 +55,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\BreakDownController\" />
-    <Folder Include="Controllers\InventoryItemController\" />
     <Folder Include="Controllers\ItemTypeController\" />
     <Folder Include="Controllers\LocationController\" />
     <Folder Include="Controllers\OtherController\" />
